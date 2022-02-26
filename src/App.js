@@ -72,7 +72,7 @@ const App = () => {
         <div>
           <div>
             <input
-              className="border px-2 py-2 text-black"
+              className="border px-2 py-2 text-black w-full"
               type="text"
               placeholder="Add to do..."
               onChange={(e) => setText(e.target.value)}
@@ -91,6 +91,9 @@ const App = () => {
             <button className="px-2 py-2 text-black" onClick={() => clear()}>
               CLEAR
             </button>
+          </div>
+          <div className="my-2 text-center">
+            <h1 className="text-black">v 0.0.2</h1>
           </div>
         </div>
       </div>
