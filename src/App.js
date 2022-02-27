@@ -93,7 +93,7 @@ const App = () => {
             </button>
           </div>
           <div className="my-2 text-center">
-            <h1 className="text-black">v 0.0.3</h1>
+            <h1 className="text-black">v 0.0.4</h1>
           </div>
         </div>
       </div>
